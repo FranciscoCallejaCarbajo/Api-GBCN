@@ -104,7 +104,38 @@
     height: auto; /* Mantiene la proporción de aspecto de las imágenes */
 }
 
+/*Revisar*//*Revisar*//*Revisar*//*Revisar*//*Revisar*//*Revisar*//*Revisar*//*Revisar*/
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #333; */
+    max-width: 1200px; /* Anchura máxima del contenedor */
+    margin: 50px auto; /* Margen superior e inferior de 50px y centrado horizontal */
+}
 
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    background-color: darkslategray;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: flex;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+
+}
+/*Revisar*//*Revisar*//*Revisar*//*Revisar*//*Revisar*//*Revisar*//*Revisar*//*Revisar*//*Revisar*//*Revisar*/
 .image-gallery {
     display: flex;
     justify-content: space-between;
